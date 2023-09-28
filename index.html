@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1><center></center></h1>
+
+
+    
+   
+
+   <!--
+  <form id="form">    
+    <input id="calculo1"  placeholder="escribe algo aqui" />
+    <br>
+    <br>
+    <input id="calculo2" placeholder="escribe algo aqui" />
+    <br>
+
+    <button id="btnCalcular">calcular</button>
+    </form>
+
+    -->
+<!--
+  <div class="container-fluid"> 
+    <div class="row" id="map-section">
+    <div class="col-2">
+      <label for="" class="form-label">Numero 1</label>
+     
+      <input type="text" class="form-control" name="" id="txt1" aria-describedby="helpId" placeholder="">
+     
+      <label for="" class="form-label">Numero 2</label>
+     
+      <input type="text" class="form-control" name="" id="txt2" aria-describedby="helpId" placeholder="">
+    
+   
+      <center>
+      <button id="btnCalcular" class="btn btn-primary"  onclick="sumartxtinput()">Suma</button>
+      
+      <button id="btnCalcular"  class="btn btn-primary"  onclick="restartxtinput()">Restar</button>
+      
+      <button id="btnCalcular"  class="btn btn-primary"   onclick="multiplicartxtinput()">Multiplicar</button>
+      
+      <button id="btnCalcular"  class="btn btn-primary"   onclick="dividirtxtinput()">Dividir</button>
+
+      <a name="" id="" class="btn btn-primary" href="#" role="button">Button</a>
+    
+      </center>
+    </div>
+   </div>
+ </div> 
+
+-->
+
+<br>
+
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+     
+      </div>
+      <div class="col-4">
+        <br/><br/>
+      
+        <div>
+          
+           
+            </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <center>
+
+                Calculadora Basica 
+            </center>
+         
+          </div>
+          <div class="card-body">
+        
+           <div class="mb-3">
+             <label for="usuario" class="form-label">Numero 1</label>
+             <input type="text"
+               class="form-control" name="usuario" id="txt1" onmouseover="pintartexto1('#f0f0f0')" onmouseout="pintartexto1('#ffffff')"  aria-describedby="helpId" placeholder="">
+      
+           </div>
+
+           <div class="mb-3">
+             <label for="clave" class="form-label">Numero 2</label>
+             <input type="text"
+               class="form-control" name="clave" id="txt2" onmouseover="pintartexto2('#f0f0f0')" onmouseout="pintartexto2('#ffffff')" aria-describedby="helpId" placeholder="">
+             
+           </div>
+             
+           <input name="" id="btnSumar" class="btn btn-primary" type="submit" onmouseover="pintarbtnsuma('#000000')" onmouseout="pintarbtnsuma('#0066cc')" style="margin:7px" onclick="sumartxtinput()" value="Sumar">
+           <input name="" id="btnRestar" class="btn btn-success" type="submit" onmouseover="pintarbtnresta('#000000')" onmouseout="pintarbtnresta('#009900')" style="margin:7px" onclick="restartxtinput()" value="Restar">
+           <input name="" id="btnMultiplicar" class="btn btn-secondary" type="submit"onmouseover="pintarbtnmultiplicacion('#000000')" onmouseout="pintarbtnmultiplicacion('#666666')" style="margin:7px" onclick="multiplicartxtinput()" value="Multiplicar">
+           <input name="" id="btnDividir" class="btn btn-danger" type="submit"  onmouseover="pintarbtndividir('#000000')" onmouseout="pintarbtndividir('#cc0000')" style="margin:7px" onclick="dividirtxtinput()" value="Dividir">
+          
+              <center>
+                <p id="resultado"></p>
+
+              </center>
+         
+         
+        
+
+
+          </div>
+          <div class="card-footer text-muted">
+         
+          </div>
+        </div>
+
+
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<!--<button id="btnCalcular" onclick="btnOnClick()">calcular</button>-->
+
+
+    <script src="./script.js"> </script>
+</body>
+</html>
